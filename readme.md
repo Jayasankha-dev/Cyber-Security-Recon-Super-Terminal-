@@ -1,5 +1,8 @@
 # 🛡️ Cyber Security Recon & Super Terminal
 
+<img width="1920" height="1080" alt="Capture" src="https://github.com/user-attachments/assets/63de6974-b548-45b6-90c2-37ac95ce4b3b" />
+
+
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![CustomTkinter](https://img.shields.io/badge/GUI-CustomTkinter-orange.svg)](https://github.com/TomSchimansky/CustomTkinter)
