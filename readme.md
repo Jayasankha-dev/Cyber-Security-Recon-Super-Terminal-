@@ -22,14 +22,6 @@ A powerful, all-in-one **Cyber Security Reconnaissance & Super Terminal** deskto
   - Checks Cookie security flags (Secure & HttpOnly).
   - Falls back to Google search if the input is not a URL.
 
-- **💻 Super Terminal**
-  - Execute native **CMD** and **PowerShell** commands directly from the UI.
-  - Real-time output streaming.
-  - Prefix `pwsh:` to run PowerShell commands (e.g., `pwsh: Get-Process`).
-
-- **🖥️ System Utilities**
-  - **USB Drive Scanner:** Type `usb` to scan and display storage drives with total/free space.
-
 - **🧠 Smart Command History**
   - Automatically saves your last 50 commands to `cmd_history.json`.
   - Deduplicates entries (moves used commands to the top).
@@ -48,7 +40,7 @@ The application features a 4‑column layout:
 
 ```
 +-----------------------------------------------------------------------------+
-|  [Target / Search / Cmd:] [___________________________] [Run] [Stop] [Clear] [Save] |
+|  [Target / Search :] [___________________________] [Run] [Stop] [Clear] [Save] |
 +------------------+------------------+------------------+------------------+
 |  Security Headers |  JS Files &     |  Forms & Links   |  Raw HTML        |
 |  & Logs           |  Comments       |                  |  Source Code     |
@@ -107,13 +99,6 @@ The application features a 4‑column layout:
   - **Forms & Links:** All input forms and the first 30 links found on the page.
   - **Raw HTML:** The full source code of the page (truncated to 50k chars).
 
-### 💻 Terminal Commands
-- Type any **CMD** command (e.g., `ipconfig`, `ping google.com`, `tree`) and press **Run**.
-- Type **PowerShell** commands using the `pwsh:` prefix (e.g., `pwsh: Get-Service | Select-Object -First 5`).
-- Output will appear in the **Security Headers & Logs** panel.
-
-### 🖥️ USB Scan
-- Simply type `usb` and hit **Run**. The drive details will appear in the first panel.
 
 ### 🛑 Controls
 - **Stop:** Immediately halts the current web request or terminal process.
