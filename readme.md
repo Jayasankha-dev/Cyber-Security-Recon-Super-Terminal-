@@ -7,7 +7,7 @@
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![CustomTkinter](https://img.shields.io/badge/GUI-CustomTkinter-orange.svg)](https://github.com/TomSchimansky/CustomTkinter)
 
-A powerful, all-in-one **Cyber Security Reconnaissance & Super Terminal** desktop application built with Python and `customtkinter`. It combines a web security inspector, a native command runner, and a USB drive scanner into a sleek, dark-themed GUI.
+A powerful, all-in-one **Cyber Security Reconnaissance & Super Terminal** desktop application built with Python and `customtkinter`. It combines a web security inspector, dark-themed GUI.
 
 ---
 
