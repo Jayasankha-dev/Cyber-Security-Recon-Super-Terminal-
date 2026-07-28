@@ -165,7 +165,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 📬 Contact
 
-**Jayasankha Madhusith** – [@BenjaminUS](https://twitter.com/yourhandle) – k8775.jayasankha@gmail.com
+**Jayasankha Madhusith** – [@BenjaminUS](https://twitter.com/madhusith) – k8775.jayasankha@gmail.com
 
 Project Link: [https://github.com/Jayasankha-dev](https://github.com/Jayasankha-dev)
 
