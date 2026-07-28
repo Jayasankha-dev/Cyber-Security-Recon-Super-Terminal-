@@ -1,4 +1,4 @@
-# 🛡️ Cyber Security Recon & Super Terminal 
+# 🛡️ Cyber Security Recon & Super Terminal
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
@@ -41,20 +41,20 @@ A powerful, all-in-one **Cyber Security Reconnaissance & Super Terminal** deskto
 
 ## 📸 Application Preview
 
-*(The application features a 4-column layout: Security Headers, JS/Comments, Forms/Links, and Raw HTML)*
+The application features a 4‑column layout:
 
-
+```
 +-----------------------------------------------------------------------------+
-| [Target / Search / Cmd:] [___________________________] [Run] [Stop] [Clear] [Save] |
+|  [Target / Search / Cmd:] [___________________________] [Run] [Stop] [Clear] [Save] |
 +------------------+------------------+------------------+------------------+
-| Security Headers | JS Files & | Forms & Links | Raw HTML |
-| & Logs | Comments | | Source Code |
-| | | | |
-| ... | ... | ... | ... |
+|  Security Headers |  JS Files &     |  Forms & Links   |  Raw HTML        |
+|  & Logs           |  Comments       |                  |  Source Code     |
+|                   |                 |                  |                  |
+|  ...              |  ...            |  ...             |  ...             |
 +------------------+------------------+------------------+------------------+
-| Status: Ready | |
+| Status: Ready |                                                                 |
 +-----------------------------------------------------------------------------+
-
+```
 
 ---
 
@@ -76,48 +76,52 @@ A powerful, all-in-one **Cyber Security Reconnaissance & Super Terminal** deskto
 
    ```bash
    pip install -r requirements.txt
-   
-   
-   Alternatively, install them manually:
-   
+   ```
+
+   *Alternatively, install them manually:*
+
+   ```bash
    pip install customtkinter requests beautifulsoup4 pillow
-   
-   Run the application:
-   
+   ```
+
+3. **Run the application:**
+
+   ```bash
    python main.py
-   
-   🎮 How to Use
-   
-🕵️ Web Reconnaissance
+   ```
 
-Type a URL (e.g., https://example.com or www.example.com) in the top bar.
+---
 
-Type a Google search query (e.g., Sinhala recipes) to perform a Google search and analyze the results page.
+## 🎮 How to Use
 
-Click Run Analysis (or press Enter).
+### 🕵️ Web Reconnaissance
+- Type a **URL** (e.g., `https://example.com` or `www.example.com`) in the top bar.
+- Type a **Google search query** (e.g., `Sinhala recipes`) to perform a Google search and analyze the results page.
+- Click **Run Analysis** (or press `Enter`).
+- View the results in the four panels:
+  - **Security Headers & Logs:** HTTP response headers and cookie flags.
+  - **JS Files & Comments:** Extracted script sources and juicy HTML comments.
+  - **Forms & Links:** All input forms and the first 30 links found on the page.
+  - **Raw HTML:** The full source code of the page (truncated to 50k chars).
 
-View the results in the four panels:
+### 💻 Terminal Commands
+- Type any **CMD** command (e.g., `ipconfig`, `ping google.com`, `tree`) and press **Run**.
+- Type **PowerShell** commands using the `pwsh:` prefix (e.g., `pwsh: Get-Service | Select-Object -First 5`).
+- Output will appear in the **Security Headers & Logs** panel.
 
-Security Headers & Logs: HTTP response headers and cookie flags.
+### 🖥️ USB Scan
+- Simply type `usb` and hit **Run**. The drive details will appear in the first panel.
 
-JS Files & Comments: Extracted script sources and juicy HTML comments.
+### 🛑 Controls
+- **Stop:** Immediately halts the current web request or terminal process.
+- **Clear All:** Empties all four output boxes.
+- **Save Report:** Saves all current output to `report_YYYYMMDD_HHMMSS.txt` in the project directory.
 
-Forms & Links: All input forms and the first 30 links found on the page.
+---
 
-Raw HTML: The full source code of the page (truncated to 50k chars).
+## 📁 Project Structure
 
-
-
-🛑 Controls
-
-Stop: Immediately halts the current web request or terminal process.
-
-Clear All: Empties all four output boxes.
-
-Save Report: Saves all current output to report_YYYYMMDD_HHMMSS.txt in the project directory.
-
-📁 Project Structure
-
+```
 .
 ├── main.py                     # Application entry point & main UI
 ├── cmd_history.json            # Auto-generated command history
@@ -129,33 +133,42 @@ Save Report: Saves all current output to report_YYYYMMDD_HHMMSS.txt in the proje
 └── utils/
     ├── __init__.py
     └── helpers.py              # History management & USB drive scanning
-	
-	
-	🧪 Testing & Error Handling
-The application gracefully handles network timeouts, connection errors, and invalid commands.
+```
 
-The Stop button uses a shared flag to interrupt processes safely.
+---
 
-All exceptions are caught and displayed in the UI with a clear red status message.
+## 🧪 Testing & Error Handling
 
+- The application gracefully handles network timeouts, connection errors, and invalid commands.
+- The **Stop** button uses a shared flag to interrupt processes safely.
+- All exceptions are caught and displayed in the UI with a clear red status message.
 
-🤝 Contributing
-Contributions, issues, and feature requests are welcome! Feel free to check the issues page if you want to contribute.
+---
 
-Fork the Project
+## 🤝 Contributing
 
-Create your Feature Branch (git checkout -b feature/AmazingFeature)
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/Jayasankha-dev/your-repo/issues) if you want to contribute.
 
-Commit your Changes (git commit -m 'Add some AmazingFeature')
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-Push to the Branch (git push origin feature/AmazingFeature)
+---
 
-Open a Pull Request
+## 📄 License
 
-📄 License
-Distributed under the MIT License. See LICENSE for more information.
+Distributed under the MIT License. See `LICENSE` for more information.
 
-📬 Contact
-Jayasankha Madhusith – @BenjaminUS – k8775.jayasankha@gmail.com
+---
 
-Project Link: https://github.com/Jayasankha-dev
+## 📬 Contact
+
+**Jayasankha Madhusith** – [@BenjaminUS](https://twitter.com/yourhandle) – k8775.jayasankha@gmail.com
+
+Project Link: [https://github.com/Jayasankha-dev](https://github.com/Jayasankha-dev)
+
+---
+
+**Happy Reconnaissance! 🕵️‍♂️💻**
